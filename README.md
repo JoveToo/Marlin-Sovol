@@ -2,6 +2,8 @@
 
 ## To use this repository
 
+This repository provides custom configurations for Marlin 2.0 for your Sovol SV01.
+
 Select the branch for your printer:
 - 2.0.9.2-sv01-bltouch : For Sovol SV01 with BLTouch
 - 2.0.9.2-sv01-bltouch-e3dv6 : For Sovol SV01 with BLTouch and an E3Dv6 hotend
@@ -9,12 +11,6 @@ Select the branch for your printer:
 - 2.0.9.2-sv01-silentboard-bltouch-e3dv6 : For Sovol SV01 with Silent Board, BLTouch and E3Dv6 hotend
 
 There are no code changes in this repository. It just creates Configuration.h and Configuration_adv.h files for the printers mentioned above.
-
-## Marlin 2.0
-
-Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
-
-Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
 
 ## Building Marlin 2.0
 
