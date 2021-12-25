@@ -18,7 +18,6 @@ There are no code changes in this repository. It just creates Configuration.h an
 
 - Action Commands. RECOMMENDED. Install Ocotprint plugins "Action Command Notification Support" and "Action Command Prompt Support". This will allow you to start, pauze and stop queued prints in Octoprint from your LCD.
 - ArcWelder support. RECOMMENDED. This feature enables your printer to print arcs, so they do not have to be passed in through many small gcode commands. This will reduce printing artefacts. For Cura, install the "Arc Welder" Cura plugin and enable "Arc Welder" and "G90 Influences Extruder" in Special Modes. Alternatively, you can install the OctoPrint plugin "ArcWelder".
-- Advanced OK. EXPERIMENTAL This also helps preventing stalls in the printer by advanced buffer management. However, to make use of this, you need an EXPERIMENTAL plugin to OctoPrint. https://github.com/chendo/BufferBuddy
 - M73 progress. RECOMMENDED. Install the Octoprint Plugin "M73 Progress Plugin". This will display print progress on your LCD when printing from OctoPrint.
 
 ## Building Marlin 2.0
