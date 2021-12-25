@@ -11,8 +11,15 @@ Select the branch for your printer:
 - 2.0.9.2-sv01-silentboard : For Sovol SV01 with Silent Board
 - 2.0.9.2-sv01-silentboard-bltouch : For Sovol SV01 with Silent Board and BLTouch
 - 2.0.9.2-sv01-silentboard-bltouch-e3dv6 : For Sovol SV01 with Silent Board, BLTouch and E3Dv6 hotend
+- 2.0.9.2-sv03-silentboard-bletouch : For stock Sovol SV03
 
 There are no code changes in this repository. It just creates Configuration.h and Configuration_adv.h files for the printers mentioned above.
+
+## Features that require support in Slicer or Octoprint
+
+- Action Commands. RECOMMENDED. Install Ocotprint plugins "Action Command Notification Support" and "Action Command Prompt Support". This will allow you to start, pauze and stop queued prints in Octoprint from your LCD.
+- ArcWelder support. RECOMMENDED. This feature enables your printer to print arcs, so they do not have to be passed in through many small gcode commands. This will reduce printing artefacts. For Cura, install the "Arc Welder" Cura plugin and enable "Arc Welder" and "G90 Influences Extruder" in Special Modes. Alternatively, you can install the OctoPrint plugin "ArcWelder".
+- M73 progress. RECOMMENDED. Install the Octoprint Plugin "M73 Progress Plugin". This will display print progress on your LCD when printing from OctoPrint.
 
 ## Building Marlin 2.0
 
