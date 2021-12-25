@@ -11,7 +11,7 @@ Select the branch for your printer:
 - 2.0.9.2-sv01-silentboard : For Sovol SV01 with Silent Board
 - 2.0.9.2-sv01-silentboard-bltouch : For Sovol SV01 with Silent Board and BLTouch
 - 2.0.9.2-sv01-silentboard-bltouch-e3dv6 : For Sovol SV01 with Silent Board, BLTouch and E3Dv6 hotend
-- 2.0.9.2-sv03-silentboard-bletouch : For stock Sovol SV03
+- 2.0.9.2-sv03-silentboard-bltouch : For stock Sovol SV03
 
 There are no code changes in this repository. It just creates Configuration.h and Configuration_adv.h files for the printers mentioned above.
 
