@@ -17,9 +17,11 @@ There are no code changes in this repository. It just creates Configuration.h an
 
 ## Features that require support in Slicer or Octoprint
 
-- Action Commands. RECOMMENDED. Install Ocotprint plugins "Action Command Notification Support" and "Action Command Prompt Support". This will allow you to start, pauze and stop queued prints in Octoprint from your LCD.
+- Action Commands. RECOMMENDED. Install Ocotprint plugins "Action Commands", "Action Command Notification Support" and "Action Command Prompt Support". This will allow you to start, pauze and stop queued prints in Octoprint from your LCD. To make the menu item work that shutdowns the printer, go to the "Action Commands" plugin configuration and add the following entry:
+![action-commands](https://github.com/JoveToo/Marlin-Sovol/tree/2.0.x/docs/actioncommands.png)
 - ArcWelder support. RECOMMENDED. This feature enables your printer to print arcs, so they do not have to be passed in through many small gcode commands. This will reduce printing artefacts. For Cura, install the "Arc Welder" Cura plugin and enable "Arc Welder" and "G90 Influences Extruder" in Special Modes. Alternatively, you can install the OctoPrint plugin "ArcWelder".
 - M73 progress. RECOMMENDED. Install the Octoprint Plugin "M73 Progress Plugin". This will display print progress on your LCD when printing from OctoPrint.
+
 
 ## Building Marlin 2.0
 
